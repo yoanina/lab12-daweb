@@ -1,0 +1,22 @@
+
+<div class="form">
+<form style="background-color: rgba(0, 0, 0, 0.12);" (ngSubmit)="login()" class="center-form" >
+  <div class="center-form">
+    <div class="imagen">
+    <img class="logo" src="assets/usersl.png" >
+    </div>
+    <div class="nombre">
+    <label class="titulo" for="nombre">-- Ingrese sus datos --</label>
+    <label for="username">Username: </label>
+    <input class="input2" type="text" id="username" [(ngModel)]="username" name="username" required>
+  </div>
+  <div class="password">
+    <label for="password">Password: </label>
+    <input class="input" type="password" id="password" [(ngModel)]="password" name="password" required>
+  </div>
+  <button type="submit" class="btn btn-primary btn-sm">Ingresar</button>
+</div>
+
+</form>
+
+

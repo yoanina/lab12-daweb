@@ -1,0 +1,42 @@
+.posts{
+    justify-content: center;
+    display: flex;
+    
+}
+.h3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.img-fluid{
+    width: 800px;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-right: 10px;
+}
+
+.titulo{
+    width: 100%;
+}
+
+.col-12{
+    margin-top: 40px;
+}
+
+.contenido{
+    justify-content: center;
+    margin-top: 20px;
+    text-align: justify;
+
+}
+

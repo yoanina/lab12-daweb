@@ -1,0 +1,28 @@
+.lista{
+    margin-bottom: 10px;
+    
+}
+
+.container{
+   
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 25px;
+    padding: 25px;
+    
+
+}
+
+.titulo{
+    text-align: center;  
+    margin-top: 100px;
+}
+
+.btn-primary{
+    background-color:wheat;
+    color: black;
+    border-color: black;
+    margin-left: 20px;
+}

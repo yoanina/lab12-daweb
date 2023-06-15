@@ -1,0 +1,9 @@
+<h2 class="titulo">Nuestras Publicaciones del dia</h2>
+<div class="container" >
+<ul >
+  <li class="elementos" *ngFor="let post of posts" (click)="showPostDetails(post.id)">
+    {{ post.title }}
+    <img class="imagen" [src]="post.image" alt="Imagen de la publicación">
+  </li>
+</ul>
+</div>

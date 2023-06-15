@@ -1,0 +1,17 @@
+<div class="posts" *ngIf="postId !== null">
+    <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <h3 class="text-center">{{ getPostById(postId)?.title }}</h3>
+      </div>
+      <div class="col-md-6">
+        <p class="contenido">{{ getPostById(postId)?.content }}</p>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" [src]="getPostById(postId)?.image" alt="Imagen de la publicación">
+      </div>
+    </div>
+    </div>
+</div>
+  
+

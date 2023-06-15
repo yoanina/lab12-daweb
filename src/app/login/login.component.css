@@ -1,0 +1,68 @@
+.center-form{
+    background-color: rgba(0, 0, 0, 0.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    padding: 25px;
+    justify-content: center;
+}
+
+.imagen{
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
+.form{
+    justify-content: center;
+    display: flex;
+    margin-top:120px;
+   
+}
+
+.titulo{
+    color: #3f2100;
+    font-weight: 100;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-style: arial;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.nombre{
+    margin-bottom: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+
+}
+
+.password{
+    margin-bottom: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+
+}
+
+.logo{
+    width: 300px;
+    justify-content: center;
+    display: flex;
+}
+
+.btn {
+    background-color: #ffdfdf;
+    border: #d27000;
+    width: 200px;
+    height: 33px;
+    color: black;
+    font-size: 17px
+}
+
+.input{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.2)
+}
+
+.input2{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.2)
+}
